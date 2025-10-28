@@ -8,81 +8,129 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
+      crossorigin="anonymous"
+    />
 
     <!-- CSS link -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Purity</title>
   </head>
 
   <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container">
-    <img src="assets/images/purity-logo.png" alt="Purity Logo" width="200" height="200">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="#">Services</a>
-        <a class="nav-link" href="#">About Purity</a>
-        <a class="nav-link" href="#">Get in touch</a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/images/purity-logo.png" alt="Purity Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">About Purity</a>
+            <a class="nav-link" href="#">Get in touch</a>
+          </div>
+        </div>
       </div>
-    </div>
-    
-  </div>
-</nav>
+    </nav>
 
-<!-- Hero section -->
- <main class="hero">
+    <!-- Hero section -->
+    <main class="hero">
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/hero-bg3.jpg"
+              class="d-block w-100"
+              alt="Background image of a person meditating at sunrise"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/hero-bg5.jpg"
+              class="d-block w-100"
+              alt="Background image of a calm beach at sunset"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/hero-bg4.jpg"
+              class="d-block w-100"
+              alt="Background image of a serene landscape"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
 
-    
+        <!-- Overlay Button -->
+        <button href="#get-in-touch"
+          class="btn btn-outline-light position-absolute top-50 start-50 translate-middle z-index-2"
+          >
+          Get in touch
+        </button>
+      </div>
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-    <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/hero-bg3.jpg" class="d-block w-100" alt="Background image of a person meditating at sunrise">
-      
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/hero-bg5.jpg" class="d-block w-100" alt="Background image of a calm beach at sunset">
-      
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/hero-bg4.jpg" class="d-block w-100" alt="Background image of a serene landscape">
-      
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-</button>
-
-<!-- Overlay Button -->
-<button class="btn btn-primary position-absolute top-50 start-50 translate-middle" style="z-index: 2;">
-    Get in touch
-</button>
-  
-</div>
-
+      <!-- Services Section -->
+       
     </main>
 
-  
     <!-- Bootstrap 5 JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -91,6 +139,9 @@
     ></script>
 
     <!-- Font Awesome -->
-     <script src="https://kit.fontawesome.com/5ca234e80d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5ca234e80d.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
