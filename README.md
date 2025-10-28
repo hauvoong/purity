@@ -33,4 +33,4 @@ Your site will be live at `https://hauvoong.github.io/purity/` after a few minut
 
 ## Wireframes
 
-![Wireframes deployment screenshot](assets/images/purity-wireframes.png)
+![Wireframes deployment screenshot](assets/images/purity-wf.png)
