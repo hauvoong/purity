@@ -28,7 +28,9 @@ To publish your site with GitHub Pages:
 
 ![GitHub Pages deployment screenshot](assets/images/github-deployment.png)
 
-Your site will be live at `https://<your-username>.github.io/<repo-name>/` after a few minutes.
+Your site will be live at `https://hauvoong.github.io/purity/` after a few minutes.
 
 
+## Wireframes
 
+![Wireframes deployment screenshot](assets/images/purity-wireframes.png)
