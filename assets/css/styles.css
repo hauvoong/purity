@@ -6,7 +6,7 @@
 
 
 /* Pushes the top of the header down under fixed navbar */
-.hero {
+.hero, .hero-message{
     margin-top: 96px;
 }
 
@@ -24,12 +24,7 @@
 /* Hero Section */
 
 
-/* Carousel Size */
 
-
-.carousel-inner {
-    max-height: 800px;
-}
 
 .hero .btn {
     border: solid 2px white;
@@ -58,11 +53,21 @@
 /* Contact Form Section */
 .hero-success .btn {
     border: solid 2px gray;
+      position: relative;
+    bottom:30px;
 }
 
-#hero-success {
-    height: 800px;
+.hero-success {
+    height: 900px;
     width: 100%;
-    background: url("../assets/images/hero-success.jpg") no-repeat center center/cover;
-    opacity: 0.7;
+    background: url("../images/hero-success.jpg") no-repeat center center/cover;
+    position: absolute;
+    opacity: 
+
+    
 }
+
+.success-message {
+    color: white;
+}
+
