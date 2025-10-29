@@ -13,6 +13,7 @@ Purity is a responsive, one-page wellness site, designed to help and support peo
 - CSS
 - Bootstrap 5 (via CDN)
 - Font Awesome (via CDN)
+- Googlefonts
 
 ## Files
 

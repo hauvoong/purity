@@ -4,18 +4,18 @@
 
 /* Global Styles */
 .hero {
-    margin-top: 176px;
+    margin-top: 110px;
 }
 
 .section {
-    padding-top: 4rem; /* prevent navbar overlap */
+    padding-top: 7rem; /* prevent navbar overlap */
 }
 
 /* Navbar */
 /* Logo Size */
 .navbar-brand img {
-    height: 150px;
-    width: auto;
+    height: 100px;
+   
 }
 
 /* Hero Section */
@@ -23,8 +23,8 @@
 /* Pushes the top of the header down under fixed navbar */
 
 /* Carousel Size */
-#carouselExampleCaptions {
-    max-height: 600px;
+#carouselExample {
+    max-height:
 }
 
 .carousel-inner {
@@ -42,13 +42,17 @@
 
 /* About Section */
 
-.rounded-circle {
-    border-radius: 0px;
+#about img {
+    max-width: auto;
+    max-height: 500px;
+    ;
 }
 
 #about .card {
     border: none;
-    max-width: 300px;
-    justify-content: center;
+    max-width: 500px;
+    max-height: 500px;
+
+    
 }
 

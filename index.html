@@ -133,7 +133,7 @@
 
       <section id="services" class="container section">
       <div>
-          <h3 class="text-center my-5">Services</h3>
+          <h3 class="text-center mb-5">Services</h3>
         </div>
         <div class="row">  
         
@@ -203,44 +203,41 @@
         </div>
       </section>
 
+     
+
 
 <!-- About Purity -->
      <section id="about" class="container section">
       <div>
-          <h3 class="text-center my-5">About Purity</h3>
+          <h3 class="text-center mb-5">About Purity</h3>
         </div>
-        <div class="row">       
-            <div class="col-12 col-md-6 mb-5">
-                    <div class="card">
-                        <img src="assets/images/purity-founder.webp" class="card-img-top rounded-circle"
-                            alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">John Doe</h3>
-                             <p class="card-text">  Founder of Purity</p> 
-                            <p class="card-text">  
-                            Take a peaceful pause and reconnect with yourself through gentle, guided meditation. 
-                            Our sessions help you release stress, calm the mind, 
-                            and restore balance — perfect for beginners and regular practitioners alike.
-                            </p>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="assets/images/purity-founder.webp" alt="Purity Logo"
+        />
+        <h3 class="about-title my-3">Purity's Founder</h3>
+        <h4 class="about-title my-3">John Doe</h4>
+            <p>
+              Purity is dedicated to helping individuals find inner peace and
+              balance through mindfulness practices. Our mission is to provide
+              accessible and effective tools for stress relief, personal growth,
+              and overall well-being. We believe that everyone deserves to live a
+              life filled with clarity, calmness, and purpose.
+            </p>
           </div>
-        </div>
-        </div>
-
-         <div class="col-12 col-md-6 mb-5">
-                    <div class="card">
-                        <img src="assets/images/purity-ethos.jpg" class="card-img-top rounded-circle"
-                            alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">John Doe</h3>
-                             <p class="card-text">  Founder of Purity</p> 
-                            <p class="card-text">  
-                            Take a peaceful pause and reconnect with yourself through gentle, guided meditation. 
-                            Our sessions help you release stress, calm the mind, 
-                            and restore balance — perfect for beginners and regular practitioners alike.
-                            </p>
+          <div class="col-12 col-md-6">
+            <img src="assets/images/purity-ethos.jpg" alt="Purity Ethos"
+        />
+        <h3 class="about-title my-3">Purity's Ethos</h3>
+            <p>
+              At Purity, we offer a variety of services including guided
+              meditations, yoga sessions, positive affirmations, and personal
+              growth workshops. Our experienced instructors are passionate about
+              sharing their knowledge and helping you on your journey to a more
+              mindful and fulfilling life. Join us today and take the first step
+              towards a healthier mind and body.
+            </p>
           </div>
-        </div>
-        </div>
         </div>
       </section>
 
@@ -259,5 +256,26 @@
       src="https://kit.fontawesome.com/5ca234e80d.js"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
   </body>
 </html>
