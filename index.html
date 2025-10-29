@@ -53,11 +53,11 @@
     <!-- Hero section -->
 
     <header class="hero">
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
             type="button"
-            data-bs-target="#carouselExample"
+            data-bs-target="#carousel"
             data-bs-slide-to="0"
             class="active"
             aria-current="true"
@@ -65,13 +65,13 @@
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExample"
+            data-bs-target="#carousel"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
-            data-bs-target="#carouselExample"
+            data-bs-target="#carousel"
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
@@ -102,7 +102,7 @@
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carousel"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,7 +111,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carousel"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -137,7 +137,7 @@
         </div>
         <div class="row">  
         
-        <div class="col-12 col-md-6 col-xl-3">
+        <div class="col-12 col-md-6 col-xl-3 mb-2">
           <div class="card">
            <img src="assets/images/purity-logo.png" class="card-img-top"
             alt="...">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
 
-          <div class="col-12 col-md-6 col-xl-3">
+          <div class="col-12 col-md-6 col-xl-3 mb-2">
                     <div class="card">
                         <img src="assets/images/purity-logo.png" class="card-img-top"
                             alt="...">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
 
-             <div class="col-12 col-md-6 col-xl-3">
+             <div class="col-12 col-md-6 col-xl-3 mb-2">
                     <div class="card">
                         <img src="assets/images/purity-logo.png" class="card-img-top"
                             alt="...">
@@ -184,7 +184,7 @@
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-xl-3">
+                <div class="col-12 col-md-6 col-xl-3 mb-2">
                     <div class="card">
                         <img src="assets/images/purity-logo.png" class="card-img-top"
                             alt="...">
@@ -212,7 +212,7 @@
           <h3 class="text-center mb-5">About Purity</h3>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6 text-center mb-5">
+          <div class="col-12 col-md-6 text-center">
             <img src="assets/images/purity-founder.webp" alt="Purity Logo"
         />
         <h3 class="about-title my-3">Purity's Founder</h3>
@@ -225,7 +225,7 @@
               life filled with clarity, calmness, and purpose.
             </p>
           </div>
-          <div class="col-12 col-md-6 text-center mb-5">
+          <div class="col-12 col-md-6 text-center">
             <img src="assets/images/purity-ethos.jpg" alt="Purity Ethos"
         />
         <h3 class="about-title my-3">Purity's Ethos</h3>
@@ -240,6 +240,51 @@
           </div>
         </div>
       </section>
+
+
+    <!-- Get in touch section -->
+
+     <section id="contact-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="text-center mb-5">Get in touch</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="tel" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="service-type" class="form-label">Service type</label>
+                                <select id="service-type" class="form-select" name="service-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Yoga</option>
+                                    <option value="dnd">Meditation</option>
+                                    <option value="retro-night">Affirmations</option>
+                                    <option value="tournament">Personal Growth</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                        <button type="submit" class="btn btn-outline-secondary mb-4">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         
     </main>

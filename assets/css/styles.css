@@ -3,11 +3,16 @@
 
 
 /* Global Styles */
+
+
+/* Pushes the top of the header down under fixed navbar */
 .hero {
     margin-top: 96px;
 }
 
-
+.section {
+    padding-top: 7rem; /* prevent navbar overlap */
+}
 
 /* Navbar */
 /* Logo Size */
@@ -18,7 +23,6 @@
 
 /* Hero Section */
 
-/* Pushes the top of the header down under fixed navbar */
 
 /* Carousel Size */
 
@@ -36,16 +40,13 @@
     max-height: auto;
 }
 
-main .container {
-    padding-top: 50px;
-}
+
 
 /* About Section */
 
 #about img {
-    max-width: auto;
-    max-height: 500px;
-    ;
+        max-height: 500px;
+        border-radius: 10px;
 }
 
 #about .card {
@@ -56,6 +57,3 @@ main .container {
     
 }
 
-.section {
-    padding-top: 12rem; /* prevent navbar overlap */
-}
