@@ -11,7 +11,7 @@
 }
 
 .section {
-    padding-top: 7rem; /* prevent navbar overlap */
+    padding-top: 6rem; /* prevent navbar overlap */
 }
 
 /* Navbar */
@@ -70,5 +70,11 @@
 
 footer i {
     font-size: 24px;
+    color: black;
+    
+}
+
+footer {
+    background-color: #D9D1CE;
 }
 
