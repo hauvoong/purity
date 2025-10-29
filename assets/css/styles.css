@@ -62,12 +62,13 @@
     width: 100%;
     background: url("../images/hero-success.jpg") no-repeat center center/cover;
     position: absolute;
-    opacity: 
-
-    
 }
 
 .success-message {
     color: white;
+}
+
+footer i {
+    font-size: 24px;
 }
 
