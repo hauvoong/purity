@@ -4,17 +4,15 @@
 
 /* Global Styles */
 .hero {
-    margin-top: 110px;
+    margin-top: 96px;
 }
 
-.section {
-    padding-top: 7rem; /* prevent navbar overlap */
-}
+
 
 /* Navbar */
 /* Logo Size */
 .navbar-brand img {
-    height: 100px;
+    height: 70px;
    
 }
 
@@ -23,9 +21,7 @@
 /* Pushes the top of the header down under fixed navbar */
 
 /* Carousel Size */
-#carouselExample {
-    max-height:
-}
+
 
 .carousel-inner {
     max-height: 800px;
@@ -38,6 +34,10 @@
 /* Services Section */
 .services .card img {
     max-height: auto;
+}
+
+main .container {
+    padding-top: 50px;
 }
 
 /* About Section */
@@ -56,3 +56,6 @@
     
 }
 
+.section {
+    padding-top: 12rem; /* prevent navbar overlap */
+}
