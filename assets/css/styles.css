@@ -40,8 +40,6 @@
     max-height: auto;
 }
 
-
-
 /* About Section */
 
 #about img {
@@ -57,3 +55,14 @@
     
 }
 
+/* Contact Form Section */
+.hero-success .btn {
+    border: solid 2px gray;
+}
+
+#hero-success {
+    height: 800px;
+    width: 100%;
+    background: url("../assets/images/hero-success.jpg") no-repeat center center/cover;
+    opacity: 0.7;
+}
