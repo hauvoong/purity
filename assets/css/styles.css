@@ -51,10 +51,6 @@ body {
 
 /* Services Section */
 
-.services .card {
-    max-height: auto;
-}
-
 #services .card {
     border: none;
 }
@@ -92,7 +88,6 @@ body {
 .hero-success .btn {
     border: solid 2px;
     position: relative;
-    bottom: -100;
     border: solid 2px white;
     width: 130px;
     height: 40px;
@@ -123,4 +118,10 @@ footer p {
 
 footer {
     background-color: #D9D1CE;
+}
+
+iframe {
+    width: 90%;
+    height: 250px;
+    border: 0;
 }

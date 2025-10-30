@@ -18,49 +18,55 @@ Purity contains five main elements:
 ## Features ##
 Navbar
 
-![Navbar screenshot](assets/images/Navbar-ss.png)
+![Navbar screenshot](assets/images/readme/Navbar-ss.png)
 
 Homepage
 
-![Homepage screenshot](assets/images/homepage-ss.png)
+![Homepage screenshot](assets/images/readme/homepage-ss.png)
 
 Services
 
-![Services screenshot](assets/images/services-ss.png)
+![Services screenshot](assets/images/readme/services-ss.png)
 
 About Purity
 
-![About us screenshot](assets/images/about-ss.png)
+![About us screenshot](assets/images/readme/about-ss.png)
 
 Get in touch
 
-![Get in touch screenshot](assets/images/contact-ss.png)
+![Get in touch screenshot](assets/images/readme/contact-ss.png)
 
 Success message
 
-![Success message screenshot](assets/images/success-ss.png)
+![Success message screenshot](assets/images/readme/success-ss.png)
 
 Footer
 
-![Footer screenshot](assets/images/footer-ss.png)
+![Footer screenshot](assets/images/readme/footer-ss.png)
 
 
 Additional Features
 
 Fully responsive layout – Works smoothly on desktops, tablets, and smartphones.
-Soothing visual style – Gentle colours and rounded elements help reduce stress and promote calm.
-Accessible structure – Clear headings, semantic HTML, and logical reading order improve usability for all users, including those using screen readers.
+Site is designed to be spacious and calming. You can get in touch via built in form/success page. Iframe added to show a google maps location. Built in padding-top so when a jump link is used, it includes the header of the section.
 
 ## User Story/testing ##
-- Planning and Justification
+- Project Board: 
+https://github.com/users/hauvoong/projects/6
 
 ## Wireframes ##
+Visual design from user stories.
 
-![Wireframes deployment screenshot](assets/images/purity-wf.png)
+![Wireframes deployment screenshot](assets/images/readme/purity-wf.png)
 
 ## Colour palette ##
 
+Colour theme based on below pallette.
+
+![Wireframes deployment screenshot](assets/images/readme/pallette.png)
+
 ## Testing ##
+Manual testing on the site to ensure all links are working. 
 
 ## Validation ##
 
