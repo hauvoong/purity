@@ -38,7 +38,7 @@ Get in touch
 
 Success message
 
-![Success message screenshot](assets/images/readme/success-ss.png)
+![Success message screenshot](assets/images/readme/success-ss.webp)
 
 Footer
 
@@ -69,16 +69,46 @@ Colour theme based on below pallette.
 Manual testing on the site to ensure all links are working. 
 
 ## Validation ##
+index.html
+![Wireframes deployment screenshot](assets/images/readme/indexval.png)
+
+success.html
+![Wireframes deployment screenshot](assets/images/readme/successval.png)
+
+styles.css
+![Wireframes deployment screenshot](assets/images/readme/cssval.png)
+
+Lighthouse performance: 
+Poor scores across performance and best practice. 
+
+![Wireframes deployment screenshot](assets/images/readme/lighthouse-ss.png)
+Solutions:
+    - Remove Google Maps iframe link. Resulted in 100% best practice and 74% on performance.
+    - Compress images and upload
+
+![Wireframes deployment screenshot](assets/images/readme/lighthouse-ss2.png)
+
+Resulted in a increase across the board. The final bug would be to change the caching which appears to be the major factor in the lower performance. Ran out of time to figure out solution.
 
 ## Debugging ##
 
 Navigation:
 - Navbar is overlapping hero image
+Solution: I referenced the code from LMS module. 
+![Wireframes deployment screenshot](assets/images/readme/navbar-overlap.png)
 
-- Hero image on small devices was not aligned to navbar. Solution: About Img was max-width was too large. Changed max-width from 500 too 400px. 
+- Hero image on small devices was not aligned to navbar. 
+Solution: About Img was max-width was too large. Changed max-width from 500 too 400px. 
+![Wireframes deployment screenshot](assets/images/readme/small-hero.png)
 
-- Adding button, title and description to hero carousel, the div would be very cramp on small screens. Solution was to hide text but not the button. 
+- Adding button, title and description to hero carousel, the div would be very cramp on small screens. 
+Solution: After googling the issues, I learnt about d-block and the use to hide content. 
+![Wireframes deployment screenshot](assets/images/readme/d-block.png)
 
+- Burger menu not collapsing after click when on the same page.
+Solution: After referencing LMS, the solution was introduced but as a JS script, which I added. 
+
+![Wireframes deployment screenshot](assets/images/readme/burger.png)
 
 ## Tech / libraries
 
@@ -88,9 +118,22 @@ Navigation:
 - Font Awesome (via CDN)
 - Googlefonts (via CDN)
 
+## Co-Pilot ##
+
+AI use:
+- Boilerplates (html and readme)
+- Co-pilot making suggestions on my text.
+- Completing repeating code changes.
+- Asking co-pilot what a line of code meant
+
+- The only case I used co-pilot for code was to add text and button as an overlay on top of the hero carousel.
+Which I tried to understand as new code we havent been taught yet. 
+![GitHub Pages deployment screenshot](assets/images/readme/overlay.png)
+
 ## Files ##
 
-- `index.html` — Main HTML file. Includes Bootstrap and Font Awesome links.
+- `index.html` — Main HTML file. Includes Bootstrap, CSS and Font Awesome links.
+- `success.html` - Success page after sending message. Includes Bootstrap and CSS.
 
 
 ## GitHub Pages — publish a live site ##
@@ -100,8 +143,25 @@ To publish your site with GitHub Pages:
 2. Go to your repository's **Settings** > **Pages**.
 3. Select the branch (e.g., `main`) and the root (`/`) folder, then save.
 
-![GitHub Pages deployment screenshot](assets/images/github-deployment.png)
+![GitHub Pages deployment screenshot](assets/images/readme/github-deployment.png)
 
 Your site will be live at `https://hauvoong.github.io/purity/` after a few minutes.
 
 ## Credits ##
+
+- LMS modules
+    - Boardwalk Games
+    - Love Running
+    - Various content
+
+- xAlex-an:
+https://github.com/xAlex-an/mental-health-awareness
+
+
+- Rebekah-codes:
+https://github.com/Rebekah-codes/The-Inner-Compass-Project
+
+
+Both developers work was very useful. Inspiration of site vision, layout, functionality readme structure. 
+
+
