@@ -1,17 +1,22 @@
 /* Google Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 /* Global Styles */
 
 
 /* Pushes the top of the header down under fixed navbar */
-.hero, .hero-message{
+.hero {
     margin-top: 96px;
 }
 
 .section {
     padding-top: 6rem; /* prevent navbar overlap */
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
 /* Navbar */
@@ -49,9 +54,6 @@
     
 }
 
-#hero-overlay img {
-    max-height: 300px;
-}
 
 /* Services Section */
 .services .card {
