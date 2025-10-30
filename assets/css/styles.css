@@ -97,7 +97,7 @@ body {
 .hero-success {
     height: 996px;
     width: 100%;
-    background: url("../images/hero-success.jpg") no-repeat center center/cover;
+    background: url("../images/hero-success.webp") no-repeat center center/cover;
     position: absolute;
 }
 
