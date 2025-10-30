@@ -24,13 +24,24 @@
 /* Hero Section */
 
 .hero .btn {
-    border: solid 3px white;
-    width: 200px;
-    height: 50px;
-    font-size: 22px;
+    border: solid 2px white;
+    width: 130px;
+    height: 40px;
     font-weight: bold;
     
 }
+
+#hero-overlay {
+    background-color: #686058;
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 70%;
+    max-height: 70%;
+    color: white;
+    
+}
+
 
 /* Services Section */
 .services .card {
