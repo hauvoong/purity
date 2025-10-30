@@ -36,9 +36,14 @@
     
 }
 
-#services .card{
+#services .card {
     border: none;
     
+}
+#services .card img{
+    max-height: 150px;
+    max-width: 150px;
+    margin: auto;
 }
 
 /* About Section */
