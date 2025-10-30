@@ -1,8 +1,6 @@
 /* Google Fonts */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
+
 
 /* Global Styles */
 
@@ -25,6 +23,7 @@
 
 /* Hero Section */
 
+
 .hero .btn {
     border: solid 2px white;
     width: 130px;
@@ -45,9 +44,14 @@
 }
 
 #hero-overlay p {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
 }
 
+#hero-overlay img {
+    max-height: 300px;
+}
 
 /* Services Section */
 .services .card {
@@ -81,21 +85,26 @@
 }
 
 /* Contact Form Section */
+
 #contact-form .btn {
     border: solid 2px;
     width: 130px;
     height: 40px;
     font-weight: bold;
-
 }
 
-/* Success page Section */
+/* Success Page */
+
+
 .hero-success .btn {
     border: solid 2px;
     position: relative;
-    bottom:275px;
+    bottom: -100;
+    border: solid 2px white;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
 }
-
 .hero-success {
     height: 996px;
     width: 100%;
@@ -103,13 +112,6 @@
     position: absolute;
 }
 
-.hero-success .btn {
-    border: solid 2px white;
-    width: 130px;
-    height: 40px;
-    font-weight: bold;
-
-}
 
 .success-message {
     color: white;
