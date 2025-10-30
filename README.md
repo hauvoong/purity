@@ -68,7 +68,10 @@ Accessible structure – Clear headings, semantic HTML, and logical reading orde
 
 Navigation:
 - Navbar is overlapping hero image
-- 
+
+- Hero image on small devices was not aligned to navbar. Solution: About Img was max-width was too large. Changed max-width from 500 too 400px. 
+
+- Adding button, title and description to hero carousel, the div would be very cramp on small screens. Solution was to hide text but not the button. 
 
 
 ## Tech / libraries
