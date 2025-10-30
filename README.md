@@ -49,6 +49,7 @@ Additional Features
 
 Fully responsive layout – Works smoothly on desktops, tablets, and smartphones.
 Site is designed to be spacious and calming. You can get in touch via built in form/success page. Iframe added to show a google maps location. Built in padding-top so when a jump link is used, it includes the header of the section.
+Accesibility has been built into the site via alt and aria attributes.
 
 ## User Story/testing ##
 - Project Board: 
@@ -83,8 +84,9 @@ Poor scores across performance and best practice.
 
 ![Wireframes deployment screenshot](assets/images/readme/lighthouse-ss.png)
 Solutions:
-    - Remove Google Maps iframe link. Resulted in 100% best practice and 74% on performance.
+    - Remove Google Maps iframe link. Resulted in 100% best practice and 74% on performance. This can be a future feature. 
     - Compress images and upload
+    - 
 
 ![Wireframes deployment screenshot](assets/images/readme/lighthouse-ss2.png)
 
@@ -163,5 +165,7 @@ https://github.com/Rebekah-codes/The-Inner-Compass-Project
 
 
 Both developers work was very useful. Inspiration of site vision, layout, functionality readme structure. 
+
+- Images sourced via: `https://unsplash.com/`
 
 
