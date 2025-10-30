@@ -6,9 +6,9 @@
 /* Global Styles */
 
 
-/* Pushes the top of the header down under fixed navbar */
+
 .hero {
-    margin-top: 96px;
+    margin-top: 96px; /* Pushes the top of the header down under fixed navbar */
 }
 
 .section {
@@ -19,22 +19,18 @@ body {
     font-family: 'Noto Sans Display', sans-serif;
 }
 
-/* Navbar */
 /* Logo Size */
 .navbar-brand img {
     height: 70px;
-   
 }
 
 /* Hero Section */
-
 
 .hero .btn {
     border: solid 2px white;
     width: 130px;
     height: 40px;
     font-weight: bold;
-    
 }
 
 #hero-overlay {
@@ -45,27 +41,25 @@ body {
     max-width: 70%;
     max-height: 70%;
     color: white;
-    
 }
 
 #hero-overlay p {
     font-size: 18px;
     font-weight: 500;
-    
 }
 
 
 /* Services Section */
+
 .services .card {
     max-height: auto;
-    
 }
 
 #services .card {
     border: none;
-    
 }
-#services .card img{
+
+#services .card img {
     max-height: 150px;
     max-width: 150px;
     margin: auto;
@@ -82,8 +76,6 @@ body {
     border: none;
     max-width: 500px;
     max-height: 500px;
-
-    
 }
 
 /* Contact Form Section */
@@ -97,7 +89,6 @@ body {
 
 /* Success Page */
 
-
 .hero-success .btn {
     border: solid 2px;
     position: relative;
@@ -107,13 +98,13 @@ body {
     height: 40px;
     font-weight: bold;
 }
+
 .hero-success {
     height: 996px;
     width: 100%;
     background: url("../images/hero-success.jpg") no-repeat center center/cover;
     position: absolute;
 }
-
 
 .success-message {
     color: white;
@@ -124,12 +115,10 @@ body {
 footer i {
     font-size: 24px;
     color: black;
-    
 }
 
 footer p {
     font-size: 20px;
-   
 }
 
 footer {
