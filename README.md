@@ -2,7 +2,7 @@
 **Project Overview**
 
 Purity is a responsive, one-page wellness site, designed to help and support people on their mental health journey. It is a simple and clear layout allowing users to access self-help content to improve their mental health.
-The layout is designed to be spacious, with warm and vibrant tones. 
+The layout is designed to be spacious, with warm and vibrant tones. The current layout is the MVP - focus was creating a good foundation to build from. 
 
 
 Purity contains five main elements:
